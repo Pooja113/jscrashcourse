@@ -26,18 +26,18 @@
 //   console.log(num1);
 // }
 
-let random //undefined
-let nothing = null // value null
+// let random //undefined
+// let nothing = null // value null
 
 
-let fruit = 'mango';
-let moreFruits = 'mango\nbanana'; //new line
-console.log(moreFruits);
+// let fruit = 'mango';
+// let moreFruits = 'mango\nbanana'; //new line
+// console.log(moreFruits);
 
-console.log(fruit.length); //string length
-console.log(fruit.indexOf('q')); 
-console.log(fruit.slice(2,5));
-console.log(fruit.replace('man','123'));
-console.log(fruit.toUpperCase());
-console.log(fruit.charAt(2));
-console.log(fruit.split(''));
+// console.log(fruit.length); //string length
+// console.log(fruit.indexOf('q')); 
+// console.log(fruit.slice(2,5));
+// console.log(fruit.replace('man','123'));
+// console.log(fruit.toUpperCase());
+// console.log(fruit.charAt(2));
+// console.log(fruit.split(''));
