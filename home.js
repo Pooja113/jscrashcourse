@@ -41,3 +41,5 @@
 // console.log(fruit.toUpperCase());
 // console.log(fruit.charAt(2));
 // console.log(fruit.split(''));
+
+
