@@ -69,27 +69,27 @@
 
 // console.log(student.fname);
 // console.log(student.studentInfo());
-let age = 28;
-if(age > 18 ){
-  console.log("greater than 18")
-}else{
-  console.log("younger than 18")
-}
+// let age = 28;
+// if(age > 18 ){
+//   console.log("greater than 18")
+// }else{
+//   console.log("younger than 18")
+// }
 
 
 
-switch (6) {
-  case 0:
-    text = "weekend";
-    break;
-  case 5:
-    text = "weekend";
-    break;
-  case 6:
-    text = "weekend";
-    break;
-  default:
-    text = "weekday"
-    break;
-}
-console.log(text)
+// switch (6) {
+//   case 0:
+//     text = "weekend";
+//     break;
+//   case 5:
+//     text = "weekend";
+//     break;
+//   case 6:
+//     text = "weekend";
+//     break;
+//   default:
+//     text = "weekday"
+//     break;
+// }
+// console.log(text)
