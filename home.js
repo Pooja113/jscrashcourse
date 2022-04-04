@@ -43,3 +43,18 @@
 // console.log(fruit.split(''));
 
 
+let fruits = ['a','b','c'];
+let veg = ['a','b','c'];
+console.log(fruits.toString());
+console.log(fruits.join(" - "));
+console.log(fruits.pop()); //remove last elemnet
+console.log(fruits.push("d"),fruits); //append
+console.log(fruits.shift());
+console.log(fruits.unshift("test")); 
+console.log(fruits.concat(veg));
+//slice
+//reverse
+//sort() string
+//function(a,b){ return a - b } asc
+ //function(a,b){ return b - a } desc
+ let emptyArr = new Array();
