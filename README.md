@@ -1,4 +1,4 @@
 # jscrashcourse
  
-# Plan for the project
-- 
+## Plan for the project
+- A responsive site
