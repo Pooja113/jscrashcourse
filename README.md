@@ -1,6 +1,7 @@
 # jscrashcourse
  
 ## Plan for the project
-- A responsive site
-- Nodejs
-- ExpressJS
+- A responsive site 
+- FrontEnd : Javascript
+- Backend : Nodejs / ExpressJS / MongoDB
+-  Hosting
