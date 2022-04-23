@@ -1,0 +1,73 @@
+  #navbar{
+    flex-direction: column;
+  }
+
+  #navbar > ul > li > a{
+    font-size: 0.6rem;
+    padding: 0px 8px;
+    padding-bottom: 8px;
+  } 
+
+  .head-primary{
+    font-size: 1.7rem;
+  }
+  .head-secondary{
+    font-size: 1.4rem;
+  }
+
+  #home{
+    height: 150px;
+  }
+
+  #home::before{
+    height: 290px;
+  }
+
+  #home p{
+    font-size: 0.8rem;
+  }
+
+  .btn{
+    font-size: 0.7rem;
+  }
+
+  #jobs{
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
+  }
+
+  #jobs img{
+    height: 90px;
+    margin: 0;
+  }
+
+  .job-box{
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .job-box p{
+    font-size: 0.7rem;
+    padding: 5px;
+  }
+  
+  #projects{
+    flex-wrap: wrap;
+  }
+
+  #projects img {
+    height: 100px;
+}
+
+  #contact-box label{
+    font-size: 0.7rem;
+  }
+  #contact-box input{
+    padding: 5px;
+  }
+  footer{
+    font-size: 0.7rem;
+  }
+

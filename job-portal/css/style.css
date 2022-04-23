@@ -5,7 +5,6 @@
 
 #navbar{
   display: flex;
-  height: 75px;
   align-items: center;
   position: sticky;
   top: 0px;
@@ -24,12 +23,14 @@
 }
 
 #logo{
-  margin: 0px 80px;
+  margin: 5px 80px;
 }
 
 #logo img {
   height: 60px;
   margin: 0 40px;
+  border-radius: 2px 24px 2px 24px;
+
 }
 
 #navbar > ul{
@@ -39,9 +40,7 @@
 }
 
 #navbar > ul > li{
-  list-style: none;
-  font-size: 1.3rem;
-  
+  list-style: none; 
 }
 
 #navbar > ul > li > a{
@@ -49,6 +48,7 @@
   display: block;
   padding: 5px 20px;
   color: white;
+  font-size: 1.2rem;
 }
 
 
@@ -68,7 +68,6 @@
   justify-content: center;
   color: white;
   text-align: center;
-  font-size: 1.5rem;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -90,6 +89,9 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+#home p{
+  font-size: 1.4rem;
+}
 
 .head-primary{
   font-size: 3rem;
@@ -97,22 +99,30 @@
 }
 
 .head-secondary{
-  font-size: 2.8rem;
+  font-size: 2rem;
 }
 
 .btn{
   padding: 8px 20px;
-    margin: 20px;
-    border-radius: 5px;
-    background: black;
-    color: white;
-    font-size: 1.1rem;
-    font-weight: 600;
-    font-family: 'Source Sans Pro', sans-serif;
-    border: 2px solid #fff;
-    opacity: 0.8;
-    cursor: pointer;
+  margin: 10px 0;
+  border-radius: 5px;
+  background: black;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: 'Source Sans Pro', sans-serif;
+  border: 2px solid #fff;
+  opacity: 0.8;
+  cursor: pointer;
 }
+
+.btn:hover{
+  background: #d1d1d8;
+  color: black;
+  border: 2px solid black;
+
+}
+
 #jobs-container{
   margin: 40px 0;
   font-family: 'Source Sans Pro', sans-serif;
@@ -125,23 +135,23 @@
 #jobs{
   display: flex;
   /* justify-content: center; */
-  border: 1px solid black;
+  border: 2px solid rgb(179, 174, 174);
+  background-color: #f8f8f8;
   margin: 15px 90px;
   padding: 20px 0px;
   border-radius: 5px;
 }
 
 #jobs img {
-  flex:0.35;
   height: 120px;
-  /* width: 200px; */
+  width: 170px;
   margin: 0 50px 0 10px;
   border-radius: 50px;
   
 }
 
 .job-box p{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 #our-work{
@@ -166,31 +176,59 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 
 .project-item{
-  padding: 30px;
+  padding: 15px;
+  z-index: -1;
 }
 
 #projects img{
-  height: 150px;
+  height: 130px;
+  /* width: 180px; */
 }
 
 #contact{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#contact h1{
   text-align: center;
 }
 
-#contact-box {
-  /* justify-items: center;
-  align-items: center;
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+}
 
-   */
+#contact-box{
+  width: 60%;
+  margin: auto;
 }
-#contact-box input,
+
+#contact-box label{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+#contact-box input{
+  padding: 10px;
+  outline-width: 0px;
+  border: 2px solid rgb(179, 174, 174);
+  border-radius: 5px;
+}
+
 #contact-box textarea{
-  padding: 12px;
+  padding: 10px;
+  outline-width: 0px;
+  border: 2px solid rgb(179, 174, 174);
+  border-radius: 5px;
 }
+
 
 footer{
   background-color: black;
