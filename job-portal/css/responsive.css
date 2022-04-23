@@ -31,14 +31,14 @@
     font-size: 0.7rem;
   }
 
-  #jobs{
+  .jobs{
     flex-direction: column;
     align-items: center;
     margin: 10px;
 
   }
 
-  #jobs img{
+  .jobs img{
     height: 90px;
     margin: 0;
   }
