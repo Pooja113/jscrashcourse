@@ -1,0 +1,8 @@
+CallBacks
+
+JS is synchronous single threaded language. Callback helps to write asynchronous code in js.
+
+Issues with callbacks
+- whenever we have multiple dependent aynchronous calls|api calls it will result to "pyramid of doom" or lot of nested calls known as callback hell
+
+- Sometimes we can loose the control over code when our callback function is dependent on the other function. The other function can have bugs or we are uncertain that the function will execute or not , this issue known as inversion of control  
