@@ -1,22 +1,35 @@
-How javascript executes : https://prnt.sc/QfRiQoGDUThg
+How javascript executes : https://prnt.sc/QfRiQoGDUThg , Javascript loosely typed language
  - Call Stack: Maintains the order of execution of the execution contexts
  - Hoisting in js : var are hoisted. 
     let and const are hoisted but they are in temporal dead zone for a time being.
     temporal dead zone: from hoisting till the variable get's initialized is known as temporal dead zone.
 
  - Reference Error | Type Error | SyntaxError	
+ - Undefined and not Defined
+ - Scope: Where we can access the particular variable or function in the code. Scope is directly dependant on the lexical environment
+     Scope Chain: Finding variable in the local variable and then their parent references and goes on is known as scope chain.
+     Lexical Environment: Whenever execution context is created lexical environment is also created.
+ Local Enivronment plus reference to the lexical environment of it's parent.
 
-
-Undefined and not Defined
-Javascript loosely typed language
-Scope: Where we can access the particular variable or function in the code. Scope is directly dependant on the lexical environment
-Scope Chain: Finding variable in the local variable and then their parent references and goes on is known as scope chain.
-Lexical Environment: Whenever execution context is created lexical environment is also created.
- Local Enivronment plus reference to the lexical environment of it's parent.	
-
-	
-
-Call | Bind | Apply : Borrowing the function
+ - Call | Bind | Apply : Borrowing the function
+ - Block : To write multiple statements together in a group , Block scope is the area where we can access the variable
+ - Shadowing: when a variable have a new value inside the block , var modify the value but not const and let
+ - Closures : function along with it's lexical scope. setTimeout with closures or let gives us new copy of variable
+ - Garbage collections - memory got freed when any variable has not been used | Smart garbage collection 
+ - function statement aka function declaration | function expression | Named function expression | anonymous function 
+		Difference between function statement and expression is hoisting
+		parameter: The identifiers which functions get is params | Arguments: the values which we passed inside a function
+		
+ - First Class function: Passing one functions as an argument to another function as well as we can return a function. So when we can use function as a value then those functions are FCF or first class citizens
+ 
+ 
+ - Browsers contains local storage , timer in short web API's 
+		promises and mutation observer goes inside the microtask queue but other callback functions goes to the callback queue
+		starvation of the callback function : when callback queue doesn't get the chance to executes the function because of microtask queue.
+ 
+ 
+ 
+		
 
 
 
