@@ -26,6 +26,13 @@ How javascript executes : https://prnt.sc/QfRiQoGDUThg , Javascript loosely type
  - Browsers contains local storage , timer in short web API's 
 		promises and mutation observer goes inside the microtask queue but other callback functions goes to the callback queue
 		starvation of the callback function : when callback queue doesn't get the chance to executes the function because of microtask queue.
+		
+		
+- Currying
+- Async vs defer attributes : Normally whenever a script tag is encountered that is fetched and executed but in async script is fetched asynchrounous to the html parsing but till execution parsing stops. In Defer execution happends in the end
+- Polyfill , ProtoType and Prototypal
+
+
  
  
  
